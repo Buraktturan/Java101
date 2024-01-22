@@ -30,5 +30,6 @@ public class KullanıcıGirişi {
             }
         } else
             System.out.println("Username Wrong!");
+        scan.close();
     }
 }
