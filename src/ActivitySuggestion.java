@@ -8,7 +8,7 @@ public class ActivitySuggestion {
         System.out.println("Please Enter the Air Temperature");
         heat=scan.nextDouble();
         scan.close();
-        
+
         if(heat<5){
             System.out.println("You should go skiing");
         }else if (5<=heat && heat<=15){
