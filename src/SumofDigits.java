@@ -13,7 +13,7 @@ public class SumofDigits {
         while(num!=0){
             dignum=num%10;
             num=num/10;
-            result=result+dignum;
+            result+=dignum;
         }
         System.out.println(result);
     }
