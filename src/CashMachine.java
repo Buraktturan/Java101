@@ -10,10 +10,10 @@ public class CashMachine {
         int price;
 
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter Username: ");
-        userName = input.nextLine();
-        while (right > 0) {
 
+        while (right > 0) {
+            System.out.print("Enter Username: ");
+            userName = input.nextLine();
             System.out.print("Password: ");
             password = input.nextLine();
 
