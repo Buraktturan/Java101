@@ -7,6 +7,11 @@ public class GuessNumber {
         Scanner scan = new Scanner(System.in);
 
             while (right>0){
+                if(number%2==0){
+                    System.out.println("Çift Sayı");
+                }else{
+                    System.out.println("Tek Sayı");
+                }
                 System.out.println("Please Enter Your Guess!");
                 int guessNumber =scan.nextInt();
                 if (guessNumber<0 || guessNumber>100) {
