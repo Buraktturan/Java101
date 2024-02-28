@@ -23,5 +23,6 @@ public class Main {
         MineSweeper mine = new MineSweeper(row,column);
         mine.run();
         mine.print(mine.map);
+
     }
 }
