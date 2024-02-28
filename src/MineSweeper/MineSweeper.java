@@ -94,7 +94,6 @@ public class MineSweeper {
         }
     }
 
-
     public void prepareGame() {
         for (int i = 0; i < rowNumber; i++) {
             for (int j = 0; j < colNumber; j++) {
